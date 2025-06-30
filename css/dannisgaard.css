@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin : 0 auto;
+	padding : 0;
+	font : 100%/1.0 verdana, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 	
+	color : #000; 
+	text-align: center;
+	background-color:#c4ecf6;
+}
+
+h1
+{
+	font : 50px verdana, 'lucida sans unicode', 'lucida grande', 'Trebuchet MS', verdana, arial, helvetica, helve, sans-serif; 	
+	margin: 0;
+	color:#FFF;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+}
+
+#wrapper
+{
+	width: 100%;
+}
+
+.maincontent{
+	clear: both;
+	width: 979px;
+	height: 740px;
+	margin: 0 auto;
+	position: relative;
+	background:url(../img/art.png) no-repeat;
+}
+
+.depotrum a {
+	font-family: "Roboto", sans-serif;
+	font-size: 40px;
+	color: #FFF;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+}
+
+p.shadow {
+	font-size: 30px;
+	color: #FFF;
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue;
+}
